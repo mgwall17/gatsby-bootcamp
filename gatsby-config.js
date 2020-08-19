@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-      title: 'Full-Stack Bootcamp',
-      author: 'Andrew Mead'
+      title: 'CyVerse',
+      author: 'Mariah Wall'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

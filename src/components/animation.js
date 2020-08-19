@@ -1,6 +1,6 @@
 import React, {useEffect, createRef} from "react"
 import lottie from 'lottie-web'
-import animation from './shiba.json'
+import animation from './floatguy.json'
 
 
 const Animation = () => {
