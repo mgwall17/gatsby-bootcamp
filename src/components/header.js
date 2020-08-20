@@ -15,9 +15,12 @@ const Header = () => {
 
   return (
     <header className={headerStyles.header}>
+    <Link to="/">
+    <img src={`cyverseLogo-01.svg`} className={headerStyles.logo} alt="CyVerse" />
+    </Link>
       <h1>
       <Link className={headerStyles.title} to="/">{data.site.siteMetadata.title}</Link></h1>
-      <nav>
+      <nav className={headerStyles.nav}>
         <ul className={headerStyles.navList}>
           <li>
             <Link className={headerStyles.navItem} activeClassName ={headerStyles.activeNavItem} to="/">Home</Link>

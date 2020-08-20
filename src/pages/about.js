@@ -45,7 +45,7 @@ const AboutPage = () => {
         large or too complex.
       </p>
 
-      <img src={`cyverseinfras-01.svg`} alt="A dog smiling in a party hat" />
+      <img src={`cyverseinfras-01.svg`} alt="graphic showing infrasturcture" />
 
       <h3>CyVerse cyberinfrastructure includes:</h3>
       <ul>
