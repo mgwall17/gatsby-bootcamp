@@ -1,9 +1,38 @@
 .animationBox {
     float: right;
     width: 50%;
+    display: block;
+    margin: -3rem;
+    align-content: center;
 }
 
 .textBox {
     float: left;
     width: 50%;
+    display: block;
+    color: #0971ab;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+
+    .button {
+        padding: 1rem;
+        background-color: #0971ab;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        max-width: 100%;
+    }
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+

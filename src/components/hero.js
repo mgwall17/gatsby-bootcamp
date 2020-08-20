@@ -6,13 +6,14 @@ import { Link } from 'gatsby'
 const Hero = () => {
     return (
         <div>
+        <div className={heroStyles.row}>
      <div className={heroStyles.textBox}>
-        <h1> CyVerse</h1>
         <h2>Transforming Science through Data-Driven Discovery</h2>
-        <Link to="/contact"> Create a new account today! </Link>
+        <Link to="/contact" className={heroStyles.button}> Create a new account today! </Link>
         </div>
         <div className={heroStyles.animationBox} >
         <Animation/>
+        </div>
         </div>
     </div>
     )
